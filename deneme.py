@@ -1,5 +1,4 @@
-def not_string(word):
-    if word[0:3] == "not":
-        return word
-    else:
-        return "not " + word
+def repeater(n):
+    return lambda x: x*n
+
+print(repeater(2)('deneme'))
