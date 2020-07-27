@@ -1,5 +1,14 @@
 def not_string(word):
-    if word[0:3] == "not":
-        return word
-    else:
-        return "not " + word
+    return word if word.startswith("not") else "not " + word
+
+
+print(not_string("good"))
+
+
+
+
+
+#
+    #return word if word[:3] == "not" else "not " + word
+
+
