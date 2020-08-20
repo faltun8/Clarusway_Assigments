@@ -1,4 +1,9 @@
-def repeater(n):
-    return lambda x: x*n
+def front_back(word):
+    print(word[0])
+   # print(word[::-1][0]+word[::-1][-1] )
 
-print(repeater(2)('deneme'))
+print(front_back('clarusway'))
+
+print(front_back('a'))
+
+print(front_back('ab'))

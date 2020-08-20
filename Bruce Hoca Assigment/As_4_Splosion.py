@@ -7,7 +7,7 @@ string_splosion('ab') → 'aab'"""
 def string_splosion(word):
     result = ""
     for i in range(len(word)):
-        result = result + word[:i+1]
+        result += word[:i+1]
     return result
 
 
